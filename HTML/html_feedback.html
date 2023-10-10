@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 style="background-color: aquamarine;">Feedback Form</h1>
+    <form id="my-form" method="post">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" minlength="3" maxlength="50" required>
+        </div>
+        <div>
+            <label for="portfolio">Portfolio:</label>
+            <input type="url" name="portfolio" id="portfolio">
+        </div>
+        <div>
+            <label for="favColor">Fav Color</label>
+			<input type="color" id="favColor">
+        </div>
+        <div>
+            <label for="likeness">From one to hundred choose likeness</label>
+            <input type="range" id="likeness" min="1" max="100">
+        </div>
+		<input type="submit" value="Submit">
+    </form>
+
+    <!-- the entire body must be written by student -->
+    <script type="text/javascript" src="./script.js">
+    </script>
+
+</body>
+
+</html>

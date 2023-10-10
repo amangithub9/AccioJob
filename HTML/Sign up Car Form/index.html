@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="my-form" method="post">
+        <div>
+            <label for="name">1. Name</label>
+            <input type="text" id="name" placeholder="Name" required>
+        </div>
+
+        <div>
+            <label for="email">2. Email</label>
+            <input type="email" id="email" placeholder="Email" required>
+        </div>
+
+        <div>
+            <!-- <label for="gender">Gender</label> -->
+
+            <label for="gender_m">3. M</label>
+            <input type="radio" id="gender_m" name="gender" required>
+            <label for="gender_f">F</label>
+            <input type="radio" id="gender_f" name="gender" required>
+        </div>
+
+
+        <div>
+            <label for="cars">4. Choose your Car</label>
+            <select name="cars" id="cars" required>
+                <option value="" disabled selected>--Please choose an option--</option>
+                <option>BMW</option>
+                <option>Audi</option>
+                <option>Mercedez</option>
+                <!-- <option>Mustang</option>
+                <option>Mitsubishi</option>
+                <option>Bugati</option>
+                <option>Lembo</option> -->
+            </select>
+        </div>
+        <div>
+            <lable class="age">5. Age</lable>
+            <input type="number" id="age" placeholder="Age" min="0" required>
+        </div>
+        <div>
+            <lable class="dob">6. DOB</lable>
+            <input type="date" id="dob" required>
+        </div>
+        <div>
+            <lable class="tel">7. Phone Number</lable>
+            <input type="tel" name="tel" id="tel" pattern="xxx-xxx-xxxx" required>
+        </div>
+        <div>
+            <lable class="password">Password</lable>
+            <input type="password" id="password" placeholder="Password" required>
+        </div>
+        <div>
+            <lable class="tos"></lable>
+            <input type="checkbox" name="tos" id="tos"> <b>I agree to the TOS.</b>
+        </div>
+        <div>
+            <button class="submit">Submit</button>
+        </div>
+        <button class = "submit">Submit</button>
+    </form>
+</body>
+
+</html>
+<img src="" alt="">

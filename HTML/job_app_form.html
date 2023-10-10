@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+ 
+    <form id ="my-form" method = "post">
+        <label for="name">Name*</label>
+        <input type="text" id ="name" required> <br>
+
+        <lable class="email">Email*</lable>
+        <input type="email" id="email" required> <br>
+
+        <lable class="gender">Gender*</lable>
+        <input type="radio" name ="gender" id ="gender_m" required>
+        <lable class="gender_m">Male</lable>
+        <input type="radio" name ="gender" id ="gender_f" required>
+        <lable class="gender_f">Female</lable> <br>
+
+        <lable class="laptop">Laptop*</lable>
+        <select name="laptop" id="laptop" required>
+            <option value="" disabled selected>--Please choose an option--</option>
+            <option value="apple">Apple</option>
+            <option value="asus">Asus</option>
+            <option value="hp">HP</option>
+        </select> <br>
+
+        <lable class="age">Age*</lable>
+        <input type="number" name="" id="age" min="0" required> <br>
+
+        <label for="portfolio">Portfolio</label>
+	    <input type="url" name="portfolio" id="portfolio"> <br>
+
+        <lable class="dob">DOB*</lable>
+        <input type="date" id ="dob" required> <br> 
+
+        <label for="password" >Password*</label>
+        <input type="password" id ="password" required> <br>
+        
+        <button type="submit">Submit</button>
+    </form>
+	<!-- the entire body must be written by student -->
+    <script type="text/javascript" src="./script.js">
+</script>
+
+</body>
+
+</html>

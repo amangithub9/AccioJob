@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <form id ="my-form" method = "post">
+        <label for="name">Name8</label>
+        <input type="text" id ="name" required> <br>
+
+        <label for="email">Email*</label>
+        <input type="email" id="email" required> <br>
+
+        <lable class="gender">Gender*</lable>
+        <input type="radio" name ="gender" id ="gender_m" required>
+        <lable class="gender_m">Male</lable>
+        <input type="radio" name ="gender" id ="gender_f" required>
+        <lable class="gender_f">Female</lable> <br>
+
+        <label for="cars">Car Brands* </label>
+		<select name="cars" id="cars" required>
+			<!-- <option value="" disabled selected>--Please choose an option--</option> -->
+			<option value="bmw">BMW</option>
+			<option value="audi">Audi</option>
+			<option value="mercedez">Mercedez</option>
+		</select> <br>
+
+        <label for="car_age">Car Age*</label>
+		<input type="number"  id="car_age"  required> <br>
+
+        <label for="dop">Date of Purchase*</label>
+		<input type="date" id="dop" required> <br>
+        
+        <label for="password">Password*</label>
+        <input type="password" id ="password" required> <br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+	<!-- the entire body must be written by student -->
+    <script type="text/javascript" src="./script.js">
+</script>
+
+</body>
+
+</html>
