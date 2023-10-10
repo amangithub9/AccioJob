@@ -1,0 +1,96 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('fbg.jpg');
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.left {
+    /* border: 5px solid rgb(0, 0, 0); */
+    /* border-radius: 120px; */
+    color: aliceblue;
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top: 10px;
+
+}
+
+.mid {
+    display: block;
+    width: 48%;
+    margin: 13px auto;
+    padding-left: 10pc;
+    /* border: 5px solid blue; */
+    color: aliceblue;
+}
+
+.right {
+    position: absolute;
+    right: 40px;
+    top: 10px;
+    /* border: 5px solid greenyellow; */
+    color: aliceblue;
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    color: wheat;
+    text-decoration: none;
+    padding: 20px 20px;
+}
+
+.navbar li a.active {
+
+    color: rgb(194, 194, 194);
+    text-decoration: underline;
+
+}
+
+.navbar li a:hover {
+    /* border: 2px solid rgb(255, 0, 0); */
+    /* border-radius: 100px; */
+    /* background-color: white; */
+    color: rgb(194, 194, 194);
+
+}
+
+.pic {
+    /* font-family: monospace; */
+    font-size: larger;
+    text-align: center;
+
+}
+
+.left img {
+    /* width: 120px; */
+    margin-left: 6px;
+    /* filter: white; */
+}
+
+.btn {
+    margin: 10px 9px;
+    padding: 9px 11px;
+    background-color: black;
+    color: white;
+    border: 3px solid grey;
+    border-radius: 15pc;
+    cursor: pointer;
+    font-size: large;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.btn:hover {
+    background-color: rgb(88, 143, 143);
+}

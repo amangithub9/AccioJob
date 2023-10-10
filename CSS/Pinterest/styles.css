@@ -1,0 +1,23 @@
+.hero{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+a {
+    object-fit: cover;
+}
+
+.hero-content{
+    padding: 2rem;
+    text-align: center;
+}
+
+.btn{
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}

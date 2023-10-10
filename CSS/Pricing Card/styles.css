@@ -1,0 +1,42 @@
+div {
+    display: flex;
+    flex-direction: column;
+    background-color: #F1F1F1;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+button {
+    width: auto;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 10px;
+    margin: 10px;
+}
+
+img {
+    width: 180px;
+    margin-top: 40px;
+}
+
+h1 {
+
+    text-align: center;
+    margin: auto;
+}
+
+h3 {
+    text-align: center;
+    margin: auto;
+}
+
+p {
+    text-align: center;
+    margin: auto;
+}

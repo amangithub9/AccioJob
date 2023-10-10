@@ -1,0 +1,21 @@
+.holder{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item-3{
+    width: 90px;
+    height: 90px;
+    background-color: green;
+}
+.item-1{
+    width: 90px;
+    height: 90px;
+    background-color: red;
+}
+.item-2{
+    width: 90px;
+    height: 90px;
+    background-color: blue;
+}

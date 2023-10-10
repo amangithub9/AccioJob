@@ -1,0 +1,37 @@
+body{
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.book-library{
+    background-color: #ffffff;
+    box-sizing:border-box;
+	box-shadow:1px 1px 1px 1px gray;
+}
+
+h2{
+    text-align: left;
+    margin-left:5%;
+	padding:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+.author{
+    color: #777777;
+    text-align: left;
+    margin-left: 5%;
+    margin-top:0px;
+	margin-bottom:0px;
+	padding:0px;
+}
+
+.price-block{
+	box-sizing:border-box;
+	background-color:rgb(46, 204, 113);
+	color:rgb(255,255,255);
+	max-width:90%;
+	margin-left:5%;
+	margin-bottom:10px;
+	
+}

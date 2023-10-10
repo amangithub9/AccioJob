@@ -1,0 +1,13 @@
+.main{
+	width:200px;
+	background-color:purple;
+	padding:10px;
+	border: solid purple;
+	border-left-color:green;
+	border-left-width: 5px;
+}
+
+.heading{
+	color:white;
+	font-size:20px;
+}
